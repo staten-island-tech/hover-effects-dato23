@@ -1,0 +1,12 @@
+@import "_variables.scss";
+
+.caddilac {
+  height: 20rem;
+  transition: all 0.3;
+  border-radius: 50%;
+}
+.caddilac:hover {
+  border-radius: 0;
+  filter: grayscale(100%);
+  transform: scale(1.3);
+}
